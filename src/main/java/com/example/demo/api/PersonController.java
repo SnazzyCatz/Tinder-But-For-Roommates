@@ -11,6 +11,7 @@ import java.util.UUID;
 
 @RequestMapping("api/v1/person")
 @RestController
+@CrossOrigin
 public class PersonController {
     private final PersonService personService;
 
